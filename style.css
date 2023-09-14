@@ -266,12 +266,58 @@ body {
     justify-content: center;
   }
   .number {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .experience {
     font-size: 14px;
   }
   .experiences {
     gap: 0px;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .social_links {
+    height: 50px;
+  }
+  .info_button {
+    font-size: 12px;
+    width: 158px;
+    height: 44px;
+  }
+  .download_contact {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .filter {
+    font-size: 14px;
+    width: 330px;
+    height: 64px;
+    gap: 0px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+  .filter_button {
+    width: 154px;
+    height: 50.303px;
+  }
+  .cards {
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .card {
+    width: 340px;
+    height: 210px;
+    margin: auto;
+  }
+  .card img {
+    width: 100%;
+  }
+  .copy_right {
+    font-size: 14px;
   }
 }
